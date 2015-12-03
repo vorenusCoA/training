@@ -1,0 +1,125 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+	background-color: #333;
+  margin: 0;
+  padding: 3px 0px;
+}
+
+li {
+  display: inline;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline;
+  text-transform: uppercase;
+  margin: 0px 12px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.listhover {
+  border-bottom: 2px solid white;
+}
+
+article {
+  height: 800px;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg") no-repeat center / cover;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+article h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin: 0 0 80px 0;
+  padding-top: 180px;
+}
+
+.btn {
+  color: #CC9900;
+}
+
+article a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+}
+
+aside {
+  background-color: white;
+}
+
+.col {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.col img {
+  height: 32px;
+}
+
+.col h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.col p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.col a {
+  text-decoration: none;
+  border: 1px solid #333333;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #333333;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+.col a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 10px;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
